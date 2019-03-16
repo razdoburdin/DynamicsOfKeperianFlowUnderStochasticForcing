@@ -22,35 +22,35 @@ Parameters of calculations are placed in [configs/params.cfg](configs/params.cfg
   
 To start calculations run one of the following commands in terminal:
   + 
-    ```
-    make steadyStateTransition
-    ```
-    to calculate spectrum of perturbations by integration of dynamic equations for the set of SFHs (figures 1 and 2 in the paper).
+  ```
+  make steadyStateTransition
+  ```
+  to calculate spectrum of perturbations by integration of dynamic equations for the set of SFHs (figures 1 and 2 in the paper).
   + 
-    ```
-    make spectra[kx]
-    ```
-    to calculate steady state spectrum of perturbations (figures 3, 4, 5, 6 and 11).
+  ```
+  make spectra[kx]
+  ```
+  to calculate steady state spectrum of perturbations (figures 3, 4, 5, 6 and 11).
   + 
-    ```
-    make solutionMap[kx,ky]
-    ```
-    to calculate dependence of perturbations energy and momentum flux in steady state on forcing Kx and Ky (figures 7 and 8).
+  ```
+  make solutionMap[kx,ky]
+  ```
+  to calculate dependence of perturbations energy and momentum flux in steady state on forcing Kx and Ky (figures 7 and 8).
   + 
-    ```
-    make solutionMap[ky,kz]
-    ```
-    to calculate dependence of perturbations energy and momentum flux in steady state on forcing Ky and Kz (figures 9 and 10).
+  ```
+  make solutionMap[ky,kz]
+  ```
+  to calculate dependence of perturbations energy and momentum flux in steady state on forcing Ky and Kz (figures 9 and 10).
   + 
-    ```
-    make optimal[R]
-    ```
-    to calculate maximal flux and energy (figure 12).
+  ```
+  make optimal[R]
+  ```
+  to calculate maximal flux and energy (figure 12).
   + 
-    ```
-    make integrationTest
-    ```
-    to calculate evolution of single SFH without forcing (figure B1).
+  ```
+  make integrationTest
+  ```
+  to calculate evolution of single SFH without forcing (figure B1).
     
 ## Licence
 This project is licensed under the GNU General Public License v2.0 - see the [LICENSE](LICENSE) file for details
