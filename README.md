@@ -9,6 +9,12 @@ To compile and run the code you need to have C++11 compiler with [Boost library]
 To compile project run 'make' in terminal.
 
 ## Run calculations
+Parameters of calculations are placed in [configs/params.cfg](configs/params.cfg]:
+  + q   -- shear rate
+  + R   -- Reynolds number
+  + R_b -- Bulk Reynolds number (set R_b=inf to disable bulk viscousity)
+  + Ct  -- Courant constant for numerical integration
+  + Nt  -- Number of threads
 
 ## Licence
 This project is licensed under the GNU General Public License v2.0 - see the [LICENSE](LICENSE) file for details
