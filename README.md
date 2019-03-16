@@ -20,30 +20,38 @@ Parameters of calculations are placed in [configs/params.cfg](configs/params.cfg
   + Ct  -- Courant constant for numerical integration
   + Nt  -- Number of threads
   
-To start calculations run:
-
+To start calculations run one of the following commands in terminal:
   + 
     ```
     make steadyStateTransition
     ```
-    in terminal to calculate spectrum of perturbations by integration of dynamic equations for the set of SFHs (figures 1 and 2 in the paper).
-
+    to calculate spectrum of perturbations by integration of dynamic equations for the set of SFHs (figures 1 and 2 in the paper).
   + 
     ```
     make spectra[kx]
     ```
-    in terminal to calculate steady state spectrum of perturbations (figures 3, 4, 5 and 6).
+    to calculate steady state spectrum of perturbations (figures 3, 4, 5, 6 and 11).
   + 
     ```
     make solutionMap[kx,ky]
     ```
-    in terminal to calculate dependence of perturbations energy and momentum flux in steady state on forcing Kx and Ky (figures 7 and 8).
+    to calculate dependence of perturbations energy and momentum flux in steady state on forcing Kx and Ky (figures 7 and 8).
   + 
     ```
     make solutionMap[ky,kz]
     ```
-    in terminal to calculate dependence of perturbations energy and momentum flux in steady state on forcing Ky and Kz (figures 9 and 10).
-
+    to calculate dependence of perturbations energy and momentum flux in steady state on forcing Ky and Kz (figures 9 and 10).
+  + 
+    ```
+    make optimal[R]
+    ```
+    to calculate maximal flux and energy (figure 12).
+  + 
+    ```
+    make integrationTest
+    ```
+    to calculate evolution of single SFH without forcing (figure B1).
+    
 ## Licence
 This project is licensed under the GNU General Public License v2.0 - see the [LICENSE](LICENSE) file for details
 
