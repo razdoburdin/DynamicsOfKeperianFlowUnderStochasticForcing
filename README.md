@@ -15,6 +15,12 @@ Parameters of calculations are placed in [configs/params.cfg](configs/params.cfg
   + R_b -- Bulk Reynolds number (set R_b=inf to disable bulk viscousity)
   + Ct  -- Courant constant for numerical integration
   + Nt  -- Number of threads
+  
+To start calculations:
+  + Run 'make steadyStateTransition' in terminal
+    to calculate spectrum of perturbations by integration of dynamic equations for the set of SFHs (figures 1 and 2 in the paper).
+  + Run 'make spectra[kx]' in terminal
+    to calculate steady state spectrum of perturbations (figures 3, 4, 5 and 6).
 
 ## Licence
 This project is licensed under the GNU General Public License v2.0 - see the [LICENSE](LICENSE) file for details
