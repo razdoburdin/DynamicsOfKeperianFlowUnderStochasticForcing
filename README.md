@@ -21,11 +21,13 @@ Parameters of calculations are placed in [configs/params.cfg](configs/params.cfg
   + Nt  -- Number of threads
   
 To start calculations run:
+
   + 
     ```
     make steadyStateTransition
     ```
     in terminal to calculate spectrum of perturbations by integration of dynamic equations for the set of SFHs (figures 1 and 2 in the paper).
+
   + 
     ```
     make spectra[kx]
