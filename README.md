@@ -10,4 +10,6 @@ To compile project run 'make' in terminal.
 
 ## Run calculations
 
+## Licence
+This project is licensed under the GNU General Public License v2.0 - see the [a relative link](LICENSE) file for details
 
