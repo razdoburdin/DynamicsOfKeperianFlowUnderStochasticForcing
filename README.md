@@ -1,6 +1,8 @@
 # DynamicsOfKeperianFlowUnderStochasticForcing
 Code was used for calculations in the astrophysical investigations. When paper with the results is published, link will be added here.
-Tested on Debian 9 with gcc 6.3.0
+Code was tested on 
++ 2 cores laptop with Debian 9 and gcc 6.3.0
++ 40 cores CPU server with Ubuntu 16.04 and gcc 5.4.0
 
 ## Requirements
 To compile and run the code you need to have C++11 compiler with [Boost library](https://www.boost.org/) being installed as well as make utility.
@@ -14,11 +16,11 @@ in terminal.
 
 ## Run calculations
 Parameters of calculations are placed in [configs/params.cfg](configs/params.cfg):
-  + q   -- shear rate
-  + R   -- Reynolds number
-  + R_b -- Bulk Reynolds number (set R_b=inf to disable bulk viscousity)
-  + Ct  -- Courant constant for numerical integration
-  + Nt  -- Number of threads
+  + q   -- shear rate.
+  + R   -- Reynolds number.
+  + R_b -- Bulk Reynolds number (set R_b=inf to disable bulk viscousity).
+  + Ct  -- Courant constant for numerical integration.
+  + Nt  -- Number of CPU threads in use.
   
 To start calculations run one of the following commands in terminal:
   + for calculation of perturbations spectrum by integration of dynamic equations for the set of SFHs (figures 1 and 2 in the paper)
