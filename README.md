@@ -46,7 +46,7 @@ To start calculations run one of the following commands in terminal:
   ```
   make optimal[R]
   ```
-  + for calculation of single SFH evolution without forcing (figure B1).
+  + for calculation of single SFH evolution without forcing (figure C1).
   ```
   make integrationTest
   ```  
