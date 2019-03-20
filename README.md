@@ -1,6 +1,9 @@
 # DynamicsOfKeperianFlowUnderStochasticForcing
-Code was used for calculations in the astrophysical investigations. When paper with the results is published, link will be added here.
-Code was tested on 
+Computations play an important role in modern astrophysics. Unfortunately many of the research papers are hard to reproduce and check due to computational code was not made public. For that reason I made my code public in hope that it will be useful for someone.
+
+I wrote that code for astrophysical investigations. When paper with the results is published, link will be added here. You are welcome to use and modify code or it's components for you needs.
+
+Program has been tested on
 + 2 cores laptop with Debian 9 and gcc 6.3.0
 + 40 cores CPU server with Ubuntu 16.04 and gcc 5.4.0
 
