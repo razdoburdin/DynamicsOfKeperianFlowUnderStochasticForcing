@@ -1,7 +1,7 @@
 # DynamicsOfKeperianFlowUnderStochasticForcing
 Computations play an important role in modern astrophysics. Unfortunately many of the research papers are hard to reproduce and check due to computational code was not made public. For that reason I made my code public in hope that it will be useful for someone.
 
-I wrote that code for astrophysical investigations. When paper with the results is published, link will be added here. You are welcome to use and modify code or it's components for you needs.
+I wrote that code for astrophysical investigations. Results are published in [this](https://doi.org/10.1093/mnras/staa145) paper ([arxiv](https://arxiv.org/abs/2001.03912)). You are welcome to use and modify code or it's components for you needs.
 
 Program has been tested on
 + 2 cores laptop with Debian 9 and gcc 6.3.0
